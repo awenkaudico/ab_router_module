@@ -1,0 +1,23 @@
+{
+    "id": "ab_router_module",
+    "name": "loc.module_ab_router_name",
+    "author": "Flowork Core",
+    "version": "1.1",
+    "description": "loc.module_ab_router_description",
+    "tutorial": "loc.module_ab_router_tutorial",
+    "type": "CONTROL_FLOW",
+    "entry_point": "processor.ABRouterModule",
+    "requires_services": [
+        "loc",
+        "logger",
+        "theme_manager",
+        "kernel"
+    ],
+    "output_schema": [
+        {
+            "name": "output_path",
+            "type": "any",
+            "description": "Meneruskan payload yang dihasilkan oleh sub workflow yang dipilih secara bergiliran."
+        }
+    ]
+}
